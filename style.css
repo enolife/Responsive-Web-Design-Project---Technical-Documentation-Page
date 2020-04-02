@@ -7,3 +7,140 @@ html {
 *:after {
     box-sizing: inherit;
 }
+
+body {
+    background: #f7f7f7;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+p {
+    line-height: 28px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#navbar {
+    background: #064069f0;
+    height: 150px;
+}
+
+ul {
+    list-style: none;
+}
+
+.nav-items {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.nav-items li {
+    padding: 8px;
+    color: #fff;
+    margin-top: 20px;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 30% 55%;
+}
+
+.side-bar {
+    display: flex;
+}
+
+.sidebar-content {
+    margin: 0 55px 0 auto;
+}
+
+.sidebar-content li {
+    color: #525252;
+    font-size: 14px;
+    padding: 9px;
+}
+
+
+.sidebar-content li:nth-child(-n+2),
+.sidebar-content li:nth-child(n+11) {
+    font-weight: 600;
+}
+
+.main-section {
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px 35px;
+    margin-bottom: 15px;
+    box-shadow: rgba(47, 55, 71, 0.05) 0px 4px 8px, rgba(47, 55, 71, 0.1) 0px 1px 3px;
+}
+
+.xl-text {
+    font-size: 32px;
+}
+
+.outer-code {
+    color: #df8908;
+    font-size: 15px;
+}
+
+.code-box {
+    font-family: Courier, sans-serif;
+    font-size: 1.1rem;
+    background: #2d3748;
+    overflow: auto;
+    padding: 15px;
+    height: auto;
+    width: auto;
+    white-space: nowrap;
+    color: #fff
+}
+
+.code-text_grey {
+    color: rgb(170, 170, 170)
+}
+
+.main-section a {
+    color: #2a89c1;
+    text-decoration: none;
+}
+
+.enable_liststyle {
+    padding-inline-start: 15px;
+    margin: 30px 0;
+}
+
+.enable_liststyle li {
+    background: url('https://res.cloudinary.com/dvhndpbun/image/upload/e_bgremoval/v1585833075/bullet_list_xose04.png') no-repeat left top;
+    padding: 3px 3px 3px 38px;
+    margin: 6px 0;
+}
+
+.hidden_list {
+    display: none;
+}
+
+hr {
+    margin: 0;
+    border: 1px solid #e0e0e4;
+}
+
+.download-btn {
+    border: 1px solid #064069f0;
+    border-radius: 5px;
+    color: #064069f0;
+    font-weight: 600;
+    margin-top: 7px;
+    padding: 8px 15px;
+    display: inline-block;
+}
+
+.download-btn:hover {
+    color: #fff;
+    background-color: #064069f0;
+}
