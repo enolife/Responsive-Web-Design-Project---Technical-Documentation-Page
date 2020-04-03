@@ -14,7 +14,6 @@ body {
     font-family: 'Open Sans', sans-serif;
     margin: 0px;
     padding: 0px;
-
 }
 
 p {
@@ -62,7 +61,6 @@ ul {
     font-size: .97rem;
 }
 
-
 .container {
     display: grid;
     grid-template-columns: 30% 55%;
@@ -81,7 +79,6 @@ ul {
     font-size: 14px;
     padding: 9px;
 }
-
 
 .sidebar-content li:nth-child(-n+2),
 .sidebar-content li:nth-child(n+11) {
@@ -136,8 +133,6 @@ ul {
 .code-text_blue {
     color: #b5bff1;
 }
-
-
 
 .main-section a {
     color: #2a89c1;
@@ -194,10 +189,10 @@ footer a {
     color: #3182ce;
 }
 
+
 /* media queries */
 
 @media (max-width: 767px) {
-
     p {
         font-size: .95rem;
     }
@@ -213,7 +208,6 @@ footer a {
         white-space: nowrap;
         font-size: .8rem;
     }
-
 
     .logo {
         margin-left: -19px;
@@ -235,5 +229,4 @@ footer a {
     footer {
         width: 90%
     }
-
 }
