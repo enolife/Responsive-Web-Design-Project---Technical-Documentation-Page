@@ -10,13 +10,16 @@
 </head>
 
 <body>
-
-    <nav id="navbar">
-
-        <header>
+    <!-- Hidden elements -->
+    <nav id="navbar" class="hidden-navbar">
+        <header class="hidden-header">
             <h3>Bootstrap Documentation</h3>
         </header>
+    </nav>
+
+    <nav id="navbar">
         <ul class="nav-items">
+
             <!-- logo -->
             <li>
                 <a href="https://getbootstrap.com/">
@@ -32,11 +35,11 @@
                     </svg>
                 </a>
             </li>
-            <li><a class="nav-link" href="#introduction"><strong>Documentation</strong></a></li>
+            <li><a class="nav-link" href="#introduction"><strong>Introduction</strong></a></li>
             <li><a class="nav-link" href="#download">Download</a></li>
             <li><a class="nav-link" href="#contents">Contents</a></li>
-            <li><a class="nav-link" href="#theming_bootstrap">Themes</a></li>
-            <li><a class="nav-link" href="#browsers_and_devices">Devices</a></li>
+            <li><a class="nav-link" href="#theming">Theming</a></li>
+            <li><a class="nav-link" href="#browsers_and_devices">Browsers and Devices</a></li>
             <li><a class="nav-link" href="#javascript">Javascript</a></li>
         </ul>
 
@@ -49,9 +52,9 @@
                 <li><a href="#introduction">Introduction</a></li>
                 <li><a href="#download">Download</a></li>
                 <li><a href="#contents">Contents</a></li>
-                <li><a href="#browsers_and_devices">Browsers & devices</a></li>
+                <li><a href="#browsers_and_devices">Browsers and devices</a></li>
                 <li><a href="#javascript">Javascript</a></li>
-                <li><a href="#theming_bootstrap">Theming</a></li>
+                <li><a href="#theming">Theming</a></li>
                 <li>Build tools</li>
                 <li>Webpack</li>
                 <li>Accessibility</li>
@@ -128,14 +131,15 @@
             <section class=" main-section" id="contents">
                 <header>
                     <h1 class="xl-text">Contents</h1>
-                    <p>Discover what’s included in Bootstrap, including our precompiled and source code flavors.
-                        Remember, Bootstrap’s JavaScript plugins require jQuery.</p>
-                    <br>
-                    <h3>Precompiled Bootstrap</h3>
-                    <p>Once downloaded, unzip the compressed folder and you’ll see something like this:</p>
+                </header>
+                <p>Discover what’s included in Bootstrap, including our precompiled and source code flavors.
+                    Remember, Bootstrap’s JavaScript plugins require jQuery.</p>
+                <br>
+                <h3>Precompiled Bootstrap</h3>
+                <p>Once downloaded, unzip the compressed folder and you’ll see something like this:</p>
 
-                    <div class="code-box">
-                        <pre>bootstrap/
+                <div class="code-box">
+                    <pre>bootstrap/
     ├── css/
     │   ├── bootstrap-grid.css
     │   ├── bootstrap-grid.css.map
@@ -158,18 +162,18 @@
         ├── bootstrap.js.map
         ├── bootstrap.min.js
         └── bootstrap.min.js.map</pre>
-                    </div>
-                    <p>This is the most basic form of Bootstrap: precompiled files for quick drop-in usage in nearly any
-                        web project. We provide compiled CSS and JS (<code class="outer-code">bootstrap.*</code>), as
-                        well as compiled and minified CSS and JS (<code class="outer-code">bootstrap.min.*</code>).
-                        <a href="https://developers.google.com/web/tools/chrome-devtools/javascript/source-maps">
-                            source maps</a> (<code class="outer-code">bootstrap.*.map</code>) are available for use
-                        with certain
-                        browsers’ developer tools. Bundled JS files (<code class="outer-code">bootstrap.bundle.js</code>
-                        and minified <code class="outer-code">bootstrap.bundle.min.js</code>) include <a
-                            href="https://popper.js.org/">Popper</a>, but
-                        not
-                        <a href="https://jquery.com/">jQuery</a>.</p>
+                </div>
+                <p>This is the most basic form of Bootstrap: precompiled files for quick drop-in usage in nearly any
+                    web project. We provide compiled CSS and JS (<code class="outer-code">bootstrap.*</code>), as
+                    well as compiled and minified CSS and JS (<code class="outer-code">bootstrap.min.*</code>).
+                    <a href="https://developers.google.com/web/tools/chrome-devtools/javascript/source-maps">
+                        source maps</a> (<code class="outer-code">bootstrap.*.map</code>) are available for use
+                    with certain
+                    browsers’ developer tools. Bundled JS files (<code class="outer-code">bootstrap.bundle.js</code>
+                    and minified <code class="outer-code">bootstrap.bundle.min.js</code>) include <a
+                        href="https://popper.js.org/">Popper</a>, but
+                    not
+                    <a href="https://jquery.com/">jQuery</a>.</p>
                 </header>
             </section>
 
@@ -219,7 +223,7 @@
 
             <section class="main-section" id="javascript">
                 <header>
-                    <h1 class="xl-text">JavaScript</h1>
+                    <h1 class="xl-text">Javascript</h1>
                 </header>
 
                 <p>Bring Bootstrap to life with our optional JavaScript plugins built on jQuery. Learn about each
@@ -269,9 +273,9 @@
                 </div>
             </section>
 
-            <section class="main-section" id="theming_bootstrap">
+            <section class="main-section" id="theming">
                 <header>
-                    <h1 class="xl-text">Theming Bootstrap</h1>
+                    <h1 class="xl-text">Theming</h1>
                 </header>
 
                 <p>Customize Bootstrap 4 with our new built-in Sass variables for global style preferences for easy
@@ -358,6 +362,11 @@
 
         </main>
     </div>
+    <footer>
+        <p>Content on this page is taken from the <a
+                href="https://getbootstrap.com/docs/4.4/getting-started/introduction/">Bootstrap official
+                website</a> </p>
+    </footer>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 
